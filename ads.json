@@ -1,1 +1,16 @@
-{}
+{
+    "testAuth": {
+        "projectName": "testAuth",
+        "description": "testing authentication with janssen server",
+        "type": "community",
+        "author": "imShakil",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
+        "githubUri": "https://github.com/imShakil/agama-lab-projects",
+        "license": "MIT",
+        "lastUpdated": "1687227221869",
+        "tags": [
+            "authentication"
+        ]
+    }
+}
