@@ -12,5 +12,19 @@
         "tags": [
             "authentication"
         ]
+    },
+    "prepRo": {
+        "projectName": "prepRo",
+        "description": "pro",
+        "type": "community",
+        "author": "imShakil",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
+        "githubUri": "https://github.com/imShakil/agama-lab-projects",
+        "license": "MIT",
+        "lastUpdated": "1687745190278",
+        "tags": [
+            "pre"
+        ]
     }
 }
