@@ -26,5 +26,22 @@
         "tags": [
             "pre"
         ]
+    },
+    "email-based-auth": {
+        "projectName": "email-based-auth",
+        "description": "email based authentication",
+        "type": "community",
+        "author": "imShakil",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
+        "githubUri": "https://github.com/imShakil/agama-lab-projects",
+        "license": "MIT",
+        "lastUpdated": "1691730366428",
+        "tags": [
+            "jans",
+            "community",
+            "authentication",
+            "authorization"
+        ]
     }
 }
