@@ -15,5 +15,20 @@
             "authentication",
             "authorization"
         ]
+    },
+    "basicAuth": {
+        "projectName": "basicAuth",
+        "description": "basic authentication",
+        "type": "community",
+        "author": "imShakil",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
+        "githubUri": "https://github.com/imShakil/agama-lab-projects",
+        "license": "MIT",
+        "lastUpdated": "1693805803370",
+        "tags": [
+            "authentication"
+        ],
+        "noDirectLaunch": []
     }
 }
