@@ -6,7 +6,7 @@
 			"id": "finish-76a3a910-31b0-42ad-aa82-65b93cb84073",
 			"position": {
 				"x": 1108,
-				"y": 145
+				"y": 146
 			},
 			"type": "finish",
 			"data": {
@@ -21,7 +21,7 @@
 				],
 				"position": {
 					"x": 1108,
-					"y": 145
+					"y": 146
 				},
 				"agamaData": {
 					"id": "finish-76a3a910-31b0-42ad-aa82-65b93cb84073",
@@ -73,11 +73,11 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1108,
-				"y": 145
+				"y": 146
 			}
 		},
 		{
@@ -136,7 +136,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "{ success: true, data: { userId: \"as9233Qz\" } }",
+					"returnVariable": "{ success: true, data: { userId:  uid } }",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
@@ -151,7 +151,7 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
 				},
-				"skake": true
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -251,7 +251,7 @@
 						{
 							"variableTypeCheck": false,
 							"assignmentExpression": "creds.username",
-							"assignedVariableName": "authResult.uid"
+							"assignedVariableName": "uid"
 						}
 					],
 					"callType": "Call static method",
@@ -270,7 +270,7 @@
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
-					"displayName": "Assign username to authResult",
+					"displayName": "Assign username to uid",
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"hasExtraData": false,
@@ -991,8 +991,8 @@
 		}
 	],
 	"viewport": {
-		"x": 116.23508718226799,
-		"y": -52.26669110915873,
-		"zoom": 0.7828705634247356
+		"x": -85,
+		"y": -234,
+		"zoom": 1
 	}
 }
