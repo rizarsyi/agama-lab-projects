@@ -7,3 +7,5 @@ authService = Call io.jans.as.server.service.AuthenticationService#class
 cdiUtil = Call io.jans.service.cdi.util#bean authService
 // Declared an empty result object
 authResult = {}
+// max 3 attempts are accepted for unsuccessful authentication
+Repeat 3 times max
