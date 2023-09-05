@@ -14,7 +14,11 @@
             "community",
             "authentication",
             "authorization"
-        ]
+        ],
+        "configs": {
+            "imShakil.gluu.emailAuth": {}
+        },
+        "noDirectLaunch": []
     },
     "basicAuth": {
         "projectName": "basicAuth",
