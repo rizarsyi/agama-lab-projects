@@ -151,9 +151,9 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
 				},
-				"skake": true
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 782,
@@ -279,7 +279,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 468,
@@ -991,8 +991,8 @@
 		}
 	],
 	"viewport": {
-		"x": 162.35917611977322,
-		"y": -30.046615860793395,
-		"zoom": 0.7100205161324099
+		"x": -12,
+		"y": -148,
+		"zoom": 1
 	}
 }
