@@ -20,5 +20,5 @@ Repeat 3 times max
           // End successful authentication with authResult.uid
           Finish { success: true, data: { userId: "as9233Qz" } }
 // The user failed to authenticate with max 3 attempts
-it_drkzj = { success: false, error: "Authentication unsuccessful" }
-Finish it_drkzj
+it_indkd = { success: false, error: "Authentication unsuccessful" }
+Finish it_indkd
