@@ -6,4 +6,4 @@ authService = Call io.jans.as.server.service.AuthenticationService#class
 // initiated cdiUtil object
 cdiUtil = Call io.jans.service.cdi.util#bean authService
 // Declared an empty result object
-authResult = "{}"
+authResult = {}
