@@ -26,10 +26,16 @@
 					"inRepeatBlock": false,
 					"name": "",
 					"basepath": "",
-					"comment": "",
+					"comment": "basic password base authentication",
 					"notes": "",
 					"flowfilename": "",
-					"assignments": [],
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
 					"callType": "Call static method",
 					"arguments": "",
 					"logMessage": "",
@@ -51,9 +57,10 @@
 					"exceptionVariableField": "",
 					"hasExtraData": false,
 					"configParams": "{}",
-					"flowname": "imShakil.basicPassAuth"
+					"flowname": "imShakil.basicPassAuth",
+					"nodeIcon": "material-symbols:line-start-square"
 				},
-				"skake": false
+				"skake": true
 			},
 			"position": {
 				"x": 35,
@@ -70,7 +77,7 @@
 	"edges": [],
 	"viewport": {
 		"x": 10,
-		"y": 15,
+		"y": 16,
 		"zoom": 1
 	}
 }
