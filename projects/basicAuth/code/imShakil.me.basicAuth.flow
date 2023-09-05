@@ -9,3 +9,9 @@ cdiUtil = Call io.jans.service.cdi.util#bean authService
 authResult = {}
 // max 3 attempts are accepted for unsuccessful authentication
 Repeat 3 times max
+     // Load the login page to ask for credentials
+     creds = RRF "login.ftlh" authResult
+     // validate user credentials
+     authResult.success = Call cdiUtil authenticate creds.username creds.password
+     // assigned creds.username to authResult 
+     authResult.uid = creds.username
