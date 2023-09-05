@@ -20,8 +20,8 @@ Repeat 3 times max
      // Check successful authentication
      When authResult.success is true
           // End successful authentication with authResult.uid
-          it_lyokq = { success: true, data: { userId: "as9233Qz" } }
-          Finish it_lyokq
+          it_inoic = { success: true, data: { userId: authResult.uid } }
+          Finish it_inoic
 // The user failed to authenticate with max 3 attempts
-it_awhad = { success: false, error: "Authentication unsuccessful" }
-Finish it_awhad
+it_lpdjd = { success: false, error: "Authentication unsuccessful" }
+Finish it_lpdjd
