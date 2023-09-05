@@ -70,9 +70,10 @@
 					"hasExtraData": true,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1108,
@@ -135,7 +136,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "{ success: true, data: { userId: authResult.uid } }",
+					"returnVariable": "{ success: true, data: { userId: \"as9233Qz\" } }",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
@@ -149,9 +150,10 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": true
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 782,
@@ -199,7 +201,8 @@
 				"handles": [
 					"Agama-when-Node-e0a5316d-0dbd-4ccb-852d-d0f89d48e16c.FAILURE",
 					"Agama-when-Node-e0a5316d-0dbd-4ccb-852d-d0f89d48e16c.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
