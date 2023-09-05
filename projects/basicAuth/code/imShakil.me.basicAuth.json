@@ -56,7 +56,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "{ success: true, data: { userId: \"as9233Qz\" } }",
+					"returnVariable": "{ success: true, data: { userId: authResult.uid } }",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
@@ -1147,8 +1147,8 @@
 		}
 	],
 	"viewport": {
-		"x": -25,
-		"y": -111,
-		"zoom": 1
+		"x": 60.949810594674204,
+		"y": -57.11812116777594,
+		"zoom": 0.819057211183293
 	}
 }
