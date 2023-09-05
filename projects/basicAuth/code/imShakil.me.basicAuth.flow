@@ -1,5 +1,7 @@
 // basic password authentication
 Flow imShakil.me.basicAuth
      Basepath ""
-// 
-Call __________#__________ 
+// creating an instance of AuthenticationService class
+authService = Call io.jans.as.server.service.AuthenticationService#class 
+// initiated cdiUtil object
+cdiUtil = Call io.jans.service.cdi.util#bean authService
