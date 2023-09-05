@@ -1,0 +1,39 @@
+{
+    "email-based-auth": {
+        "projectName": "email-based-auth",
+        "description": "email based authentication",
+        "type": "community",
+        "author": "imShakil",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
+        "githubUri": "https://github.com/imShakil/agama-lab-projects",
+        "license": "MIT",
+        "lastUpdated": "1691730366428",
+        "tags": [
+            "jans",
+            "community",
+            "authentication",
+            "authorization"
+        ]
+    },
+    "basicAuth": {
+        "projectName": "basicAuth",
+        "description": "basic authentication",
+        "type": "community",
+        "author": "imShakil",
+        "version": "1.0.0",
+        "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
+        "githubUri": "https://github.com/imShakil/agama-lab-projects",
+        "license": "MIT",
+        "lastUpdated": "1693805803370",
+        "tags": [
+            "authentication"
+        ],
+        "noDirectLaunch": [],
+        "configs": {
+            "imShakil.basicPassAuth": {},
+            "imShakil.me.basicAuth": {},
+            "": {}
+        }
+    }
+}

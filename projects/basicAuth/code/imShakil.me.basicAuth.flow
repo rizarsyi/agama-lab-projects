@@ -1,0 +1,24 @@
+// basic password authentication
+Flow imShakil.me.basicAuth
+     Basepath ""
+// creating an instance of AuthenticationService class
+authService = Call io.jans.as.server.service.AuthenticationService#class 
+// initiated cdiUtil object
+cdiUtil = Call io.jans.service.cdi.util#bean authService
+// Declared an empty result object
+authResult = {}
+// max 3 attempts are accepted for unsuccessful authentication
+Repeat 3 times max
+     // Load the login page to ask for credentials
+     creds = RRF "login.ftlh" authResult
+     // validate user credentials
+     authResult.success = Call cdiUtil authenticate creds.username creds.password
+     // assigned creds.username to authResult 
+     authResult.uid = creds.username
+     // Check successful authentication
+     When authResult.success is true
+          // End successful authentication with authResult.uid
+          Finish { success: true, data: { userId: "as9233Qz" } }
+// The user failed to authenticate with max 3 attempts
+it_indkd = { success: false, error: "Authentication unsuccessful" }
+Finish it_indkd
