@@ -31,7 +31,8 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "imShakil.basicPassAuth": {}
+            "imShakil.basicPassAuth": {},
+            "imShakil.me.basicAuth": {}
         }
     }
 }
