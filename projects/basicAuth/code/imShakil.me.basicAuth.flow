@@ -15,3 +15,10 @@ Repeat 3 times max
      authResult.success = Call cdiUtil authenticate creds.username creds.password
      // assigned creds.username to authResult 
      authResult.uid = creds.username
+     // Check successful authentication
+     When authResult.success is true
+          // End successful authentication with authResult.uid
+          Finish { success: true, data: { userId: authResult.uid } }
+// The user failed to authenticate with max 3 attempts
+it_ciytn = { success: false, error: "Authentication unsuccessful" }
+Finish it_ciytn
