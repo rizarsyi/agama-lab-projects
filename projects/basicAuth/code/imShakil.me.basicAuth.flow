@@ -11,8 +11,8 @@ authResult = {}
 Repeat 3 times max
      // Load the login page to ask for credentials
      creds = RRF "login.ftlh" authResult
-     // validate user input
-     Log "@info user input: %" creds.username
+     // display username for each login attempts
+     Log "@info Attempt to login for %" creds.username
      // validate user credentials
      authResult.success = Call cdiUtil authenticate creds.username creds.password
      // assigned creds.username to authResult 
@@ -22,5 +22,5 @@ Repeat 3 times max
           // End successful authentication with authResult.uid
           Finish { success: true, data: { userId: "as9233Qz" } }
 // The user failed to authenticate with max 3 attempts
-it_tfocj = { success: false, error: "Authentication unsuccessful" }
-Finish it_tfocj
+it_pyaut = { success: false, error: "Authentication unsuccessful" }
+Finish it_pyaut
