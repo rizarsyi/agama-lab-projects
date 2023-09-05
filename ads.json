@@ -16,7 +16,8 @@
             "authorization"
         ],
         "configs": {
-            "imShakil.gluu.emailAuth": {}
+            "imShakil.gluu.emailAuth": {},
+            "imShakil.hch-sad.test": {}
         },
         "noDirectLaunch": []
     },
