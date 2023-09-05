@@ -71,7 +71,7 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
 				},
-				"skake": true
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
@@ -1147,8 +1147,8 @@
 		}
 	],
 	"viewport": {
-		"x": -114,
-		"y": -379,
+		"x": -25,
+		"y": -111,
 		"zoom": 1
 	}
 }
