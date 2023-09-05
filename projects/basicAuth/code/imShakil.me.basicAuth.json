@@ -73,7 +73,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1108,
@@ -136,7 +136,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "{ success: true, data: { userId:  uid } }",
+					"returnVariable": "{ success: true, data: { userId:  \"uid\" } }",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
@@ -151,9 +151,9 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
 				},
-				"skake": false
+				"skake": true
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 782,
@@ -216,7 +216,7 @@
 			"height": 122,
 			"id": "Agama-assignment-Node-7e6751d5-5481-4031-bc94-b34523259056",
 			"position": {
-				"x": 469,
+				"x": 468,
 				"y": 409
 			},
 			"type": "assignment",
@@ -227,7 +227,7 @@
 				"whenCondition": "",
 				"inRepeatBlock": true,
 				"position": {
-					"x": 469,
+					"x": 468,
 					"y": 409
 				},
 				"agamaData": {
@@ -251,7 +251,7 @@
 						{
 							"variableTypeCheck": false,
 							"assignmentExpression": "creds.username",
-							"assignedVariableName": "uid"
+							"assignedVariableName": "authResult.uid"
 						}
 					],
 					"callType": "Call static method",
@@ -282,7 +282,7 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 469,
+				"x": 468,
 				"y": 409
 			}
 		},
@@ -991,8 +991,8 @@
 		}
 	],
 	"viewport": {
-		"x": -85,
-		"y": -234,
-		"zoom": 1
+		"x": 162.35917611977322,
+		"y": -30.046615860793395,
+		"zoom": 0.7100205161324099
 	}
 }
