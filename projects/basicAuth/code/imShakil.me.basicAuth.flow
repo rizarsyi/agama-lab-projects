@@ -22,5 +22,5 @@ Repeat 3 times max
 // validate user input
 Log "@info user input: %" creds.username
 // The user failed to authenticate with max 3 attempts
-it_vfzhv = { success: false, error: "Authentication unsuccessful" }
-Finish it_vfzhv
+it_tfocj = { success: false, error: "Authentication unsuccessful" }
+Finish it_tfocj
