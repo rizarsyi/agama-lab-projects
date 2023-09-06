@@ -26,7 +26,7 @@
         "description": "basic authentication",
         "type": "community",
         "author": "imShakil",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
         "githubUri": "https://github.com/imShakil/agama-lab-projects",
         "license": "MIT",
