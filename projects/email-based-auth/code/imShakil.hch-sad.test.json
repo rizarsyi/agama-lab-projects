@@ -29,7 +29,13 @@
 					"comment": "",
 					"notes": "",
 					"flowfilename": "",
-					"assignments": [],
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
 					"callType": "Call static method",
 					"arguments": "",
 					"logMessage": "",
@@ -51,9 +57,10 @@
 					"exceptionVariableField": "",
 					"hasExtraData": false,
 					"configParams": "{}",
-					"flowname": "imShakil.hch-sad.test"
+					"flowname": "imShakil.hch-sad.test",
+					"nodeIcon": "material-symbols:line-start-square"
 				},
-				"skake": true
+				"skake": false
 			},
 			"position": {
 				"x": 62,
