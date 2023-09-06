@@ -14,14 +14,19 @@
             "community",
             "authentication",
             "authorization"
-        ]
+        ],
+        "configs": {
+            "imShakil.gluu.emailAuth": {},
+            "imShakil.hch-sad.test": {}
+        },
+        "noDirectLaunch": []
     },
     "basicAuth": {
         "projectName": "basicAuth",
         "description": "basic authentication",
         "type": "community",
         "author": "imShakil",
-        "version": "1.0.0",
+        "version": "1.0.4",
         "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
         "githubUri": "https://github.com/imShakil/agama-lab-projects",
         "license": "MIT",
