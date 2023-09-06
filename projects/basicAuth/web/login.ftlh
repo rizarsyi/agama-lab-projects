@@ -10,12 +10,7 @@
           </head>
           <body><meta charset="UTF-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title> Jans Agama Basic Auth flow 
   </title><h2>Welcome
-  </h2><hr/>
-  [#if !(success!true)]
-  <p class="fs-6 text-danger mb-3">${msgs[&quot;login.errorMessage&quot;]}
-  </p>
-  [/#if]
-  <hr/><form method="post" enctype="application/x-www-form-urlencoded"><div>
+  </h2><hr/><form method="post" enctype="application/x-www-form-urlencoded"><div>
 	  Username: 
 	  <input type="text" name="username" id="username" value="${uid!}" required class="form-control"/></div><div>
 	  Password: 
