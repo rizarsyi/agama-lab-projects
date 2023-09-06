@@ -73,7 +73,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 210,
@@ -410,7 +410,7 @@
 					"conditionInputField": "",
 					"valueField": "",
 					"returnVariable": "",
-					"javaClassName": "io.jans.service.cdi.util",
+					"javaClassName": "io.jans.service.cdi.util.CdiUtil",
 					"javaMethodName": "bean",
 					"javaVariableName": "",
 					"maxIterationVariableName": "",
@@ -1147,8 +1147,8 @@
 		}
 	],
 	"viewport": {
-		"x": 14,
-		"y": -121,
+		"x": -121,
+		"y": -223,
 		"zoom": 1
 	}
 }
