@@ -212,9 +212,9 @@
 					"flowname": "imShakil.me.basicMultiAuth",
 					"nodeIcon": "material-symbols:line-start-square",
 					"configs": "config",
-					"inputs": "ldaps.txt"
+					"inputs": ""
 				},
-				"skake": false
+				"skake": true
 			},
 			"position": {
 				"x": 37,
