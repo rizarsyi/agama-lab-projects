@@ -40,5 +40,23 @@
             "imShakil.me.basicAuth": {},
             "": {}
         }
+    },
+    "basicMultiAuth": {
+        "projectName": "basicMultiAuth",
+        "description": "This project aims to authenticate for multiple LDAP server",
+        "type": "community",
+        "author": "imShakil",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
+        "githubUri": "https://github.com/imShakil/agama-lab-projects",
+        "license": "MIT",
+        "lastUpdated": "1694482416336",
+        "tags": [
+            "authentication",
+            "jans",
+            "community",
+            "authorization"
+        ],
+        "noDirectLaunch": []
     }
 }
