@@ -1,0 +1,59 @@
+[
+  {
+    "id": "Agama-start-Flow-9f2df6c3-777d-47f5-a9ed-feacb861f944",
+    "type": "start",
+    "sourcePosition": "right",
+    "data": {
+      "id": "Agama-start-Flow-9f2df6c3-777d-47f5-a9ed-feacb861f944",
+      "type": "Agama-start-Flow",
+      "position": {
+        "x": 30,
+        "y": 30
+      },
+      "inRepeatBlock": false,
+      "agamaData": {
+        "id": "Agama-start-Flow-9f2df6c3-777d-47f5-a9ed-feacb861f944",
+        "type": "Agama-start-Flow",
+        "hasSuccess": false,
+        "hasFailure": false,
+        "hasRepeat": false,
+        "hasComment": true,
+        "hasNoRepeat": false,
+        "isTopLevelFlow": true,
+        "inRepeatBlock": false,
+        "name": "",
+        "basepath": "",
+        "comment": "",
+        "notes": "",
+        "flowfilename": "",
+        "assignments": [],
+        "callType": "Call static method",
+        "arguments": "",
+        "logMessage": "",
+        "templatePath": "",
+        "maxIteration": "",
+        "idpAuthEndpoint": "",
+        "variableField": "",
+        "conditionInputField": "",
+        "valueField": "",
+        "returnVariable": "",
+        "javaClassName": "",
+        "javaMethodName": "",
+        "javaVariableName": "",
+        "maxIterationVariableName": "",
+        "logLevel": "",
+        "assignCallbackResult": "",
+        "displayName": "This project aims to authenticate users for multiple LDAP server.",
+        "nodeColor": "",
+        "exceptionVariableField": "",
+        "hasExtraData": false,
+        "configParams": "{}",
+        "flowname": "imShakil.me.basicMultiAuth"
+      }
+    },
+    "position": {
+      "x": 30,
+      "y": 30
+    }
+  }
+]
