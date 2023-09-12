@@ -3,3 +3,5 @@ Flow imShakil.me.basicMultiAuth
      Basepath ""
 // call AuthenticationService class
 authService = Call io.jans.as.server.service.AuthenticationService#class 
+// call CdiUtil bean method to pass authService argument and assign object to cdiUtil
+cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
