@@ -1,0 +1,28 @@
+{
+    "ldap_configuration":
+    [
+       {
+          "configId":"ad_1",
+          "servers":["localhost:1636"],
+          "bindDN":"cn=directory manager",
+          "bindPassword":"Mh@006",
+          "useSSL":false,
+          "maxConnections":3,
+          "baseDNs":["ou=people,o=gluu"],
+          "loginAttributes":["uid"],
+          "localLoginAttributes":["uid"]
+       },
+       {
+          "configId":"ad_2",
+          "servers":["localhost:2389"],
+          "bindDN":"cn=directory manager",
+          "bindPassword":"encoded_pass",
+          "useSSL":false,
+          "maxConnections":3,
+          "baseDNs":["ou=people,o=gluu"],
+          "loginAttributes":["mail"],
+          "localLoginAttributes":["mail"]
+       }
+    ]
+  }
+  
