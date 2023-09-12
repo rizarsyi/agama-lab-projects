@@ -211,7 +211,8 @@
 					"configParams": "{}",
 					"flowname": "imShakil.me.basicMultiAuth",
 					"nodeIcon": "material-symbols:line-start-square",
-					"configs": ""
+					"configs": "config",
+					"inputs": "ldaps.txt"
 				},
 				"skake": false
 			},
@@ -219,7 +220,7 @@
 				"x": 37,
 				"y": 117
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 37,
 				"y": 117
@@ -264,7 +265,7 @@
 		}
 	],
 	"viewport": {
-		"x": 9,
+		"x": 10,
 		"y": 15,
 		"zoom": 1
 	}
