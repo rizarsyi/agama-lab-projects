@@ -59,7 +59,8 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "imShakil.me.basicMultiAuth": {}
+            "imShakil.me.basicMultiAuth": {},
+            "": {}
         }
     }
 }
