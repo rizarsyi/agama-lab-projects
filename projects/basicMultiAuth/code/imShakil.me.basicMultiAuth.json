@@ -3,10 +3,85 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-call-Node-712a043c-707a-447a-8e7b-e9c1f8f56f2c",
+			"position": {
+				"x": 463,
+				"y": 119
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-712a043c-707a-447a-8e7b-e9c1f8f56f2c",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-call-Node-f5a68120-c8ff-444e-8117-95978c006eb8",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 463,
+					"y": 119
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-712a043c-707a-447a-8e7b-e9c1f8f56f2c",
+					"type": "Agama-call-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-call-Node-f5a68120-c8ff-444e-8117-95978c006eb8",
+					"name": "",
+					"basepath": "",
+					"comment": "call CdiUtil bean method to pass authService argument and assign object to cdiUtil",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Call static method",
+					"arguments": "authService",
+					"logMessage": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "io.jans.service.cdi.util.CdiUtil",
+					"javaMethodName": "bean",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "Init CdiUtil Object",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:code",
+					"asssignedVariableName": "cdiUtil"
+				}
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 463,
+				"y": 119
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-call-Node-f5a68120-c8ff-444e-8117-95978c006eb8",
 			"position": {
-				"x": 280,
-				"y": 116
+				"x": 263,
+				"y": 119
 			},
 			"type": "call",
 			"data": {
@@ -16,8 +91,8 @@
 				"whenCondition": "",
 				"inRepeatBlock": false,
 				"position": {
-					"x": 280,
-					"y": 116
+					"x": 263,
+					"y": 119
 				},
 				"agamaData": {
 					"id": "Agama-call-Node-f5a68120-c8ff-444e-8117-95978c006eb8",
@@ -66,13 +141,14 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "authService"
-				}
+				},
+				"skake": false
 			},
 			"positionAbsolute": {
-				"x": 280,
-				"y": 116
+				"x": 263,
+				"y": 119
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -85,8 +161,8 @@
 				"id": "Agama-start-Flow-9f2df6c3-777d-47f5-a9ed-feacb861f944",
 				"type": "Agama-start-Flow",
 				"position": {
-					"x": 80,
-					"y": 116
+					"x": 37,
+					"y": 117
 				},
 				"inRepeatBlock": false,
 				"agamaData": {
@@ -136,16 +212,16 @@
 					"nodeIcon": "material-symbols:line-start-square",
 					"configs": ""
 				},
-				"skake": true
+				"skake": false
 			},
 			"position": {
-				"x": 80,
-				"y": 116
+				"x": 37,
+				"y": 117
 			},
 			"selected": false,
 			"positionAbsolute": {
-				"x": 80,
-				"y": 116
+				"x": 37,
+				"y": 117
 			},
 			"dragging": false
 		}
@@ -167,10 +243,27 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-call-Node-f5a68120-c8ff-444e-8117-95978c006eb8-Agama-call-Node-712a043c-707a-447a-8e7b-e9c1f8f56f2c-f57f1308-2605-4a87-aed9-49527220ed8e",
+			"type": "straight",
+			"source": "Agama-call-Node-f5a68120-c8ff-444e-8117-95978c006eb8",
+			"target": "Agama-call-Node-712a043c-707a-447a-8e7b-e9c1f8f56f2c",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
-		"x": 10,
+		"x": 9,
 		"y": 15,
 		"zoom": 1
 	}
