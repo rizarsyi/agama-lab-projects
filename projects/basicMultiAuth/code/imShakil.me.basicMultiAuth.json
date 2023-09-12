@@ -3,6 +3,81 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-call-Node-f5a68120-c8ff-444e-8117-95978c006eb8",
+			"position": {
+				"x": 280,
+				"y": 116
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-f5a68120-c8ff-444e-8117-95978c006eb8",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-start-Flow-9f2df6c3-777d-47f5-a9ed-feacb861f944",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 280,
+					"y": 116
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-f5a68120-c8ff-444e-8117-95978c006eb8",
+					"type": "Agama-call-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-start-Flow-9f2df6c3-777d-47f5-a9ed-feacb861f944",
+					"name": "",
+					"basepath": "",
+					"comment": "call AuthenticationService class",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "io.jans.as.server.service.AuthenticationService",
+					"javaMethodName": "class",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "Init AuthenticationService",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:code",
+					"asssignedVariableName": "authService"
+				}
+			},
+			"positionAbsolute": {
+				"x": 280,
+				"y": 116
+			},
+			"selected": true,
+			"dragging": false
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-start-Flow-9f2df6c3-777d-47f5-a9ed-feacb861f944",
 			"type": "start",
 			"sourcePosition": "right",
@@ -58,15 +133,16 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"flowname": "imShakil.me.basicMultiAuth",
-					"nodeIcon": "material-symbols:line-start-square"
+					"nodeIcon": "material-symbols:line-start-square",
+					"configs": ""
 				},
-				"skake": false
+				"skake": true
 			},
 			"position": {
 				"x": 80,
 				"y": 116
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
 				"x": 80,
 				"y": 116
@@ -74,7 +150,25 @@
 			"dragging": false
 		}
 	],
-	"edges": [],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-9f2df6c3-777d-47f5-a9ed-feacb861f944-Agama-call-Node-f5a68120-c8ff-444e-8117-95978c006eb8-dd8d2b32-326a-49fe-880e-a4d146b9101f",
+			"type": "straight",
+			"source": "Agama-start-Flow-9f2df6c3-777d-47f5-a9ed-feacb861f944",
+			"target": "Agama-call-Node-f5a68120-c8ff-444e-8117-95978c006eb8",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		}
+	],
 	"viewport": {
 		"x": 10,
 		"y": 15,
