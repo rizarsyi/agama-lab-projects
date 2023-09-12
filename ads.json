@@ -57,6 +57,9 @@
             "community",
             "authorization"
         ],
-        "noDirectLaunch": []
+        "noDirectLaunch": [],
+        "configs": {
+            "imShakil.me.basicMultiAuth": {}
+        }
     }
 }
