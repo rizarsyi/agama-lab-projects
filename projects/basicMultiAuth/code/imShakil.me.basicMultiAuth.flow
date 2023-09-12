@@ -1,3 +1,5 @@
 // It used to apply multiple authentication configurations.
 Flow imShakil.me.basicMultiAuth
      Basepath ""
+// call AuthenticationService class
+authService = Call io.jans.as.server.service.AuthenticationService#class 
