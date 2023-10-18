@@ -17,12 +17,13 @@ Repeat 3 times max
      authResult.success = Call cdiUtil authenticate creds.username creds.password
      // assigned creds.username to authResult
      authResult.uid = creds.username
-     When __________ __________ __________
+     // check successful authentication
+     When authResult.success is true
           // return log statement for successful authentication
           Log "@info Authenticate success for %" creds.username
           // End successful authentication flow
-          it_juxmq = { success: true, data: { userId: authResult.uid } }
-          Finish it_juxmq
+          it_ovzml = { success: true, data: { userId: authResult.uid } }
+          Finish it_ovzml
 // User failed to authenticate for 3 times
-it_xkeiy = { success: false, error: "Your error message here" }
-Finish it_xkeiy
+it_vrqdl = { success: false, error: "Your error message here" }
+Finish it_vrqdl
