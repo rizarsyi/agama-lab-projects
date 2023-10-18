@@ -1,4 +1,28 @@
+// hello-agama is an external identity provider integration for social logins
 Flow coop.hello.agama
      Basepath ""
-// social login to external provider
-authResult = RFAC https://wallet.hello.coop/authorize ?scope=openid+name+given_name+email &client_id=46be57a7-d0f5-459e-9655-24799433637d &nonce=841481711636707047 &redirect_uri=https%3A%2F%2Fplayground.hello.dev%2F &response_type=id_token
+// creating an instance of AuthenticationService class
+authService = Call io.jans.as.server.service.AuthenticationService#class 
+// initiated cdiUtil object
+cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
+// Declared an empty result object
+authResult = {}
+// Retry 3 times for failed attempts
+Repeat 3 times max
+     // external identity provider for social login
+     creds = RFAC https://wallet.hello.coop/authorize?scope=openid&client_id=46be57a7-d0f5-459e-9655-24799433637d&redirect_uri=https%3A%2F%2Fplayground.hello.dev%2F&nonce=22586048783734594006&response_type=id_token
+     // display username in the login attempt
+     Log "@info Attempt to authenticate for %" creds.username
+     // validate user credentials
+     authResult.success = Call cdiUtil authenticate creds.username creds.password
+     // assigned creds.username to authResult
+     authResult.uid = creds.username
+     When __________ __________ __________
+          // return log statement for successful authentication
+          Log "@info Authenticate success for %" creds.username
+          // End successful authentication flow
+          it_juxmq = { success: true, data: { userId: authResult.uid } }
+          Finish it_juxmq
+// User failed to authenticate for 3 times
+it_xkeiy = { success: false, error: "Your error message here" }
+Finish it_xkeiy
