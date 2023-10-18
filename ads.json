@@ -62,5 +62,25 @@
             "imShakil.me.basicMultiAuth": {},
             "": {}
         }
+    },
+    "hello-agama": {
+        "projectName": "hello-agama",
+        "description": "hello.coop integration with janssen server for dynamic enrollment",
+        "type": "community",
+        "author": "imShakil",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
+        "githubUri": "https://github.com/imShakil/agama-lab-projects",
+        "license": "MIT",
+        "lastUpdated": "1697600517984",
+        "tags": [
+            "openid-connect",
+            "jans",
+            "authentication",
+            "authorization",
+            "social-logins"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
     }
 }
