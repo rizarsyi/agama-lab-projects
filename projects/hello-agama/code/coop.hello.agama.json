@@ -5,8 +5,8 @@
 			"height": 122,
 			"id": "Agama-rfac-Node-f64394e4-f9cb-4a66-b72a-8718e69183c0",
 			"position": {
-				"x": 243,
-				"y": 119
+				"x": 363,
+				"y": 116
 			},
 			"type": "rfac",
 			"data": {
@@ -16,8 +16,8 @@
 				"whenCondition": "",
 				"inRepeatBlock": false,
 				"position": {
-					"x": 243,
-					"y": 119
+					"x": 363,
+					"y": 116
 				},
 				"agamaData": {
 					"id": "Agama-rfac-Node-f64394e4-f9cb-4a66-b72a-8718e69183c0",
@@ -65,13 +65,14 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "ic:baseline-insert-link"
-				}
+				},
+				"skake": true
 			},
 			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 243,
-				"y": 119
+				"x": 363,
+				"y": 116
 			}
 		},
 		{
@@ -134,7 +135,7 @@
 					"flowname": "coop.hello.agama",
 					"nodeIcon": "material-symbols:line-start-square"
 				},
-				"skake": true
+				"skake": false
 			},
 			"position": {
 				"x": 43,
@@ -168,8 +169,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
+		"x": 11,
+		"y": 14,
 		"zoom": 1
 	}
 }
