@@ -1,2 +1,4 @@
 Flow coop.hello.agama
      Basepath ""
+// social login to external provider
+authResult = RFAC https://wallet.hello.coop/authorize ?scope=openid+name+given_name+email &client_id=46be57a7-d0f5-459e-9655-24799433637d &nonce=841481711636707047 &redirect_uri=https%3A%2F%2Fplayground.hello.dev%2F &response_type=id_token
