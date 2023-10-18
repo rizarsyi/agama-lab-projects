@@ -1,60 +1,175 @@
-[
-  {
-    "id": "Agama-start-Flow-32f2a699-04d5-413f-a870-116d78e2ebb1",
-    "type": "start",
-    "sourcePosition": "right",
-    "data": {
-      "id": "Agama-start-Flow-32f2a699-04d5-413f-a870-116d78e2ebb1",
-      "type": "Agama-start-Flow",
-      "position": {
-        "x": 30,
-        "y": 30
-      },
-      "inRepeatBlock": false,
-      "agamaData": {
-        "id": "Agama-start-Flow-32f2a699-04d5-413f-a870-116d78e2ebb1",
-        "type": "Agama-start-Flow",
-        "hasSuccess": false,
-        "hasFailure": false,
-        "hasRepeat": false,
-        "hasComment": true,
-        "hasNoRepeat": false,
-        "isTopLevelFlow": true,
-        "inRepeatBlock": false,
-        "name": "",
-        "basepath": "",
-        "comment": "",
-        "notes": "",
-        "flowfilename": "",
-        "assignments": [],
-        "callType": "Call static method",
-        "arguments": "",
-        "logMessage": "",
-        "templatePath": "",
-        "maxIteration": "",
-        "idpAuthEndpoint": "",
-        "variableField": "",
-        "conditionInputField": "",
-        "valueField": "",
-        "returnVariable": "",
-        "javaClassName": "",
-        "javaMethodName": "",
-        "javaVariableName": "",
-        "maxIterationVariableName": "",
-        "logLevel": "",
-        "assignCallbackResult": "",
-        "displayName": "hello-agama is an external identity provider integration for social logins",
-        "nodeColor": "",
-        "exceptionVariableField": "",
-        "hasExtraData": false,
-        "configParams": "{}",
-        "flowname": "coop.hello.agama"
-      },
-      "skake": false
-    },
-    "position": {
-      "x": 30,
-      "y": 30
-    }
-  }
-]
+{
+	"nodes": [
+		{
+			"width": 170,
+			"height": 122,
+			"id": "Agama-rfac-Node-f64394e4-f9cb-4a66-b72a-8718e69183c0",
+			"position": {
+				"x": 243,
+				"y": 119
+			},
+			"type": "rfac",
+			"data": {
+				"id": "Agama-rfac-Node-f64394e4-f9cb-4a66-b72a-8718e69183c0",
+				"type": "Agama-rfac-Node",
+				"parentId": "Agama-start-Flow-32f2a699-04d5-413f-a870-116d78e2ebb1",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 243,
+					"y": 119
+				},
+				"agamaData": {
+					"id": "Agama-rfac-Node-f64394e4-f9cb-4a66-b72a-8718e69183c0",
+					"type": "Agama-rfac-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-start-Flow-32f2a699-04d5-413f-a870-116d78e2ebb1",
+					"name": "",
+					"basepath": "",
+					"comment": "social login to external provider",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "https://wallet.hello.coop/authorize ?scope=openid+name+given_name+email &client_id=46be57a7-d0f5-459e-9655-24799433637d &nonce=841481711636707047 &redirect_uri=https%3A%2F%2Fplayground.hello.dev%2F &response_type=id_token",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "authResult",
+					"displayName": "Social Login",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"nodeIcon": "ic:baseline-insert-link"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 243,
+				"y": 119
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
+			"id": "Agama-start-Flow-32f2a699-04d5-413f-a870-116d78e2ebb1",
+			"type": "start",
+			"sourcePosition": "right",
+			"data": {
+				"id": "Agama-start-Flow-32f2a699-04d5-413f-a870-116d78e2ebb1",
+				"type": "Agama-start-Flow",
+				"position": {
+					"x": 43,
+					"y": 119
+				},
+				"inRepeatBlock": false,
+				"agamaData": {
+					"id": "Agama-start-Flow-32f2a699-04d5-413f-a870-116d78e2ebb1",
+					"type": "Agama-start-Flow",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"inRepeatBlock": false,
+					"name": "",
+					"basepath": "",
+					"comment": "",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Call static method",
+					"arguments": "",
+					"logMessage": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "hello-agama is an external identity provider integration for social logins",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"flowname": "coop.hello.agama",
+					"nodeIcon": "material-symbols:line-start-square"
+				},
+				"skake": true
+			},
+			"position": {
+				"x": 43,
+				"y": 119
+			},
+			"selected": false,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 43,
+				"y": 119
+			}
+		}
+	],
+	"edges": [
+		{
+			"id": "Agama-start-Flow-32f2a699-04d5-413f-a870-116d78e2ebb1-Agama-rfac-Node-f64394e4-f9cb-4a66-b72a-8718e69183c0-9df70ac0-d096-4702-adcf-082eab6eecdc",
+			"type": "straight",
+			"source": "Agama-start-Flow-32f2a699-04d5-413f-a870-116d78e2ebb1",
+			"target": "Agama-rfac-Node-f64394e4-f9cb-4a66-b72a-8718e69183c0",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
+		}
+	],
+	"viewport": {
+		"x": 10,
+		"y": 15,
+		"zoom": 1
+	}
+}
