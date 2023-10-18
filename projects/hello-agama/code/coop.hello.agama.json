@@ -67,9 +67,10 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
 				"x": 1588.5083413113985,
 				"y": 690.9310388084539
@@ -141,7 +142,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -174,12 +176,24 @@
 					"id": "Agama-when-Node-e13b73a9-349e-4c40-8e29-facb692b9513",
 					"parentId": "Agama-assignment-Node-b61470af-5aa0-4b00-9cec-e05c8998a280",
 					"type": "Agama-when-Node",
-					"hasSuccess": true
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"variableField": "authResult.success",
+					"conditionInputField": "is",
+					"valueField": "true",
+					"comment": "check successful authentication",
+					"hasComment": true
 				},
 				"handles": [
 					"Agama-when-Node-e13b73a9-349e-4c40-8e29-facb692b9513.FAILURE",
 					"Agama-when-Node-e13b73a9-349e-4c40-8e29-facb692b9513.SUCCESS"
-				]
+				],
+				"skake": true
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -253,7 +267,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -328,7 +343,8 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "authResult.success"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -402,7 +418,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -476,7 +493,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "ic:baseline-insert-link"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -555,7 +573,8 @@
 					"hasExtraData": true,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -630,7 +649,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:event-repeat-outline-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -778,7 +798,8 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "authService"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -853,7 +874,8 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "cdiUtil"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -927,7 +949,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -1147,8 +1170,8 @@
 		}
 	],
 	"viewport": {
-		"x": -32.64623019029807,
-		"y": -27.35569992049193,
+		"x": -31.64623019029807,
+		"y": -28.35569992049193,
 		"zoom": 0.5
 	}
 }
