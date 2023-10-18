@@ -81,6 +81,8 @@
             "social-logins"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "coop.hello.agama": {}
+        }
     }
 }
