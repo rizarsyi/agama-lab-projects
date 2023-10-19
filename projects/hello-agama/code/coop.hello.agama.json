@@ -938,7 +938,7 @@
 					"logMessage": "",
 					"templatePath": "",
 					"maxIteration": "",
-					"idpAuthEndpoint": "https://wallet.hello.coop/authorize?scope=openid+name+email+profile_update&client_id=e16042a2-3da8-40da-83f1-331748d5c966&nonce=ebq20G2UPtl-E4aYxyfUf&redirect_uri=https%3A%2F%2Fimshakil-ample-sailfish.gluu.info%2Fjans-auth%2Frestv1%2Fauthorize&response_type=id_token",
+					"idpAuthEndpoint": "url",
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
@@ -955,9 +955,10 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "ic:baseline-insert-link"
-				}
+				},
+				"skake": true
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 297.82147838889193,
 				"y": 280.8565348629138
