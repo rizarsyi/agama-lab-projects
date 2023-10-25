@@ -68,7 +68,7 @@
         "description": "hello.coop integration with janssen server for dynamic enrollment",
         "type": "community",
         "author": "imShakil",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
         "githubUri": "https://github.com/imShakil/agama-lab-projects",
         "license": "MIT",
@@ -83,7 +83,7 @@
         "noDirectLaunch": [],
         "configs": {
             "imshakil.esoteric.coop.hello.agama": {},
-            "coop.hello.agama": {}
+            "imshakil.shaggy.coop.hello.agama": {}
         },
         "name": "hello-agama"
     }
