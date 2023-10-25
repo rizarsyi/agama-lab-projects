@@ -21,16 +21,18 @@ Repeat 3 times max
      authResult.success = Call cdiUtil authenticate creds.username creds.password
      // assigned creds.username to authResult
      authResult.uid = creds.username
+     // logging result
+     Log "@info Authentication result %" authResult
      // check successful authentication
      When authResult.success is true
           // return log statement for successful authentication
           Log "@info Authenticate successful"
           // End successful authentication flow
-          it_xfmjq = { success: true, data: { userId: authResult.uid } }
-          Finish it_xfmjq
+          it_ihrqo = { success: true, data: { userId: authResult.uid } }
+          Finish it_ihrqo
      Log "@debug invalid credentials"
 // log
 Log "@debug max retry attempt"
 // User failed to authenticate for 3 times
-it_wpyyb = { success: false, error: "Your error message here" }
-Finish it_wpyyb
+it_kfguz = { success: false, error: "Your error message here" }
+Finish it_kfguz
