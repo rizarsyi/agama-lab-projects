@@ -12,7 +12,7 @@ Log "@info authentication process initiated"
 // Retry 3 times for failed attempts
 Repeat 3 times max
      // assigned rfac url
-     url = "https://wallet.hello.coop/authorize?scope=openid+name+email&client_id=e16042a2-3da8-40da-83f1-331748d5c966&nonce=ebq20G2UPtl-E4aYxyfUf&redirect_uri=https%3A%2F%2Ftestjans.imshakil.gluu%2Fjans-auth%2Frestv1%2Fauthorize.htm&response_type=code&code_challenge=RE4uhrxnwYA-P0Ra4U2_BCrJMuZQJW06kAVErHqTKjY&response_mode=query"
+     url = "https://wallet.hello.coop/authorize?scope=openid+name+email&client_id=e16042a2-3da8-40da-83f1-331748d5c966&nonce=ebq20G2UPtl-E4aYxyfUf&redirect_uri=https%3A%2F%2Ftestjans.imshakil.gluu%2Fjans-auth%2Frestv1%2Fauthorize%3Fclient_id%3D4e7fc8dc-2ff8-4c44-9f5c-a46a5d5bee78%26redirect_uri%3Dhttps%3A%2F%2F127.0.0.1%3A9091%2Foidc_callback&response_type=code&code_challenge=RE4uhrxnwYA-P0Ra4U2_BCrJMuZQJW06kAVErHqTKjY&response_mode=query"
      // login to external identity provider
      creds = RFAC url
      // display username in the login attempt
@@ -28,11 +28,11 @@ Repeat 3 times max
           // return log statement for successful authentication
           Log "@info Authenticate successful"
           // End successful authentication flow
-          it_ihrqo = { success: true, data: { userId: authResult.uid } }
-          Finish it_ihrqo
+          it_napcs = { success: true, data: { userId: authResult.uid } }
+          Finish it_napcs
      Log "@debug invalid credentials"
 // log
 Log "@debug max retry attempt"
 // User failed to authenticate for 3 times
-it_kfguz = { success: false, error: "Your error message here" }
-Finish it_kfguz
+it_grdez = { success: false, error: "Your error message here" }
+Finish it_grdez
