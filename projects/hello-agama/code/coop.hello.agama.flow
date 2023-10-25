@@ -22,10 +22,13 @@ Repeat 3 times max
      // check successful authentication
      When authResult.success is true
           // return log statement for successful authentication
-          Log "@info Authenticate success for %" creds.username
+          Log "@info Authenticate successful"
           // End successful authentication flow
-          it_zbzkg = { success: true, data: { userId: authResult.uid } }
-          Finish it_zbzkg
+          it_jwqpm = { success: true, data: { userId: authResult.uid } }
+          Finish it_jwqpm
+     Log "@debug invalid credentials"
+// log
+Log "@debug max retry attempt"
 // User failed to authenticate for 3 times
-it_lhgfx = { success: false, error: "Your error message here" }
-Finish it_lhgfx
+it_ftsoq = { success: false, error: "Your error message here" }
+Finish it_ftsoq
