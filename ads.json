@@ -82,7 +82,9 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "imshakil.esoteric.coop.hello.agama": {}
-        }
+            "imshakil.esoteric.coop.hello.agama": {},
+            "coop.hello.agama": {}
+        },
+        "name": "hello-agama"
     }
 }
