@@ -16,8 +16,8 @@
 			Password
 		  </label><input type="password" id="password" name="password" autofocus class="w-full rounded px-3 border border-gray-300 pt-2 pb-2 focus:border-green-700"/></div><div class="space-y-9"><div class="text-sm flex justify-center items-center"><button type="submit" class="py-2 px-6 rounded text-white btn bg-green-500 hover:bg-green-600">
 			  Submit
-			</button></div></div></form><div class="space-y-9"><div class="text-sm flex justify-center items center"><a href="https://wallet.hello.coop/authorize?scope=openid+name+email&client_id=e16042a2-3da8-40da-83f1-331748d5c966&nonce=ebq20G2UPtl-E4aYxyfUf&redirect_uri=https%3A%2F%2Ftestjans.imshakil.gluu%2Fjans-auth%2Frestv1%2Fauthorize%3Fclient_id%3D4e7fc8dc-2ff8-4c44-9f5c-a46a5d5bee78%26redirect_uri%3Dhttps%3A%2F%2F127.0.0.1%3A9091%2Foidc_callback&response_type=code&code_challenge=RE4uhrxnwYA-P0Ra4U2_BCrJMuZQJW06kAVErHqTKjY&response_mode=query" class="py-2 px-6 rounded tex-white btn bg-green-500 hover:bg-green-600">Social Login</a></div><div>
-	</div></div></div></div></body><script>
+			</button></div></div></form><div class="space-y-9"><div class="text-sm flex justify-center items center"><a href="https://wallet.hello.coop/authorize?scope=openid+name+email&client_id=e16042a2-3da8-40da-83f1-331748d5c966&nonce=ebq20G2UPtl-E4aYxyfUf&redirect_uri=https%3A%2F%2Ftestjans.imshakil.gluu%2Fjans-auth%2Frestv1%2Fauthorize%3Fclient_id%3D4e7fc8dc-2ff8-4c44-9f5c-a46a5d5bee78%26redirect_uri%3Dhttps%3A%2F%2F127.0.0.1%3A9091%2Foidc_callback&response_type=code&code_challenge=RE4uhrxnwYA-P0Ra4U2_BCrJMuZQJW06kAVErHqTKjY&response_mode=query" class="py-2 px-6 rounded text-white btn bg-green-500 hover:bg-green-600">Social Login</a></div><div>
+		</div></div></div></div></body><script>
   function handleFormValidation() {
 	var username = document.getElementById('username').value
 	if (username === '') {
