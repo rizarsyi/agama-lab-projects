@@ -15,3 +15,16 @@ codeGrantUtil = Call io.jans.inbound.oauth2.CodeGrantUtil#new conf.hello
 Log "@info Creating an authorization request"
 // generate authorization request
 url = Call codeGrantUtil makeAuthzRequest  
+// extract url and generated state
+state = url.second
+url = url.first
+// redirect log
+Log "@info Redirecting to hello.coop for social login..."
+// redirection to external op for social login
+responseParamas = RFAC url
+// received response from hello.coop
+Log "@info Browser taken back to redirect uri"
+// Parse code presented at callback uri
+code = Call codeGrantUtil parseCode responseParams state
+// Grab token response variable looks like sector 4.1.4 of RFC 6749
+response = Call codeGrantUtil getTokenResponse code
