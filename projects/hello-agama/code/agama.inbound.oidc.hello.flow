@@ -1,2 +1,17 @@
+// OpenID inbound Identity flow with hello.coop for social logins
 Flow agama.inbound.oidc.hello
      Basepath ""
+     Configs hello_op_conf
+// launch utility flow
+obj = Trigger agama.inbound.oauth2.authzCodeWithUserInfo oidc
+// check authentication 
+When obj.success is true
+     // grab response data
+     obj.data = obj.data.profile
+     // User provisioning and grab user uid
+     uid = Call agama.inbound.UserOnBoardHelper#exec obj.data
+     it_jyzzt = { success: true, data: { userId: uid } }
+     Finish it_jyzzt
+// fail attempt
+it_jykuo = { success: false, error: "Authentication failed, please try again later." }
+Finish it_jykuo
