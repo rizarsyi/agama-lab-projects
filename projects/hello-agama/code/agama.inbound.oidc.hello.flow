@@ -3,7 +3,7 @@ Flow agama.inbound.oidc.hello
      Basepath ""
      Configs hello_op_conf
 // launch utility flow
-obj = Trigger agama.inbound.oauth2.authzCodeWithUserInfo oidc
+obj = Trigger agama.inbound.oauth2.authzCodeWithUserInfo hello_op_conf.oidc
 // log
 Log "@info Process to onboard user"
 // check authentication 
@@ -13,8 +13,8 @@ When obj.success is true
      // User provisioning and grab user uid
      uid = Call agama.inbound.UserOnBoardHelper#exec obj.data uidPrefix
      // return user id for successful authentication
-     it_pddso = { success: true, data: { userId: uid } }
-     Finish it_pddso
+     it_qborq = { success: true, data: { userId: uid } }
+     Finish it_qborq
 // fail attempt
-it_frxgg = { success: false, error: "Authentication failed, please try again later." }
-Finish it_frxgg
+it_iyyun = { success: false, error: "Authentication failed, please try again later." }
+Finish it_iyyun
