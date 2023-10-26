@@ -436,9 +436,10 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"hasExtraData": false,
-					"configParams": "{}",
+					"configParams": "{\n  \"oidc\": {\n    \"authorization_endpoint\": \"https://wallet.hello.coop/authorize\",\n    \"token_endpoint\": \"https://wallet.hello.coop/oauth/token\",\n    \"userInfo_endpoint\": \"https://wallet.hello.coop/oauth/userinfo\",\n    \"clientId\": \"CLIENT_IDENTIFIER\",\n    \"clientSecret\": \"SECRET\",\n    \"scopes\": [\n      \"openid\"\n    ],\n    \"clientCredsInRequestBody\": true,\n    \"custParamsAuthReq\": {},\n    \"custParamsTokenReq\": {}\n  },\n  \"uidPrefix\": \"hello-\"\n}",
 					"flowname": "coop.hello.agama",
-					"nodeIcon": "material-symbols:line-start-square"
+					"nodeIcon": "material-symbols:line-start-square",
+					"configs": "hello_coop_conf"
 				},
 				"skake": false
 			},
@@ -446,7 +447,7 @@
 				"x": 43,
 				"y": 119
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 43,
@@ -1837,8 +1838,8 @@
 		}
 	],
 	"viewport": {
-		"x": 66.58867117627653,
-		"y": 50.5582190755332,
-		"zoom": 0.5
+		"x": 10,
+		"y": 15,
+		"zoom": 1
 	}
 }
