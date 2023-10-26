@@ -28,3 +28,9 @@ Log "@info Browser taken back to redirect Uri"
 code = Call codeGrantUtil parseCode responseParams state
 // Grab token response variable looks like in sect 4.1.4 of RFC 6749
 response = Call codeGrantUtil getTokenResponse code
+// log
+Log "@info Access token has been obtained"
+// assigned response data
+obj = { success: true, data: response }
+it_tuifo = { success: true, data: { userId: "as9233Qz" } }
+Finish it_tuifo
