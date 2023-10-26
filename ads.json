@@ -105,7 +105,24 @@
                 },
                 "uidPrefix": "hello-"
             },
-            "imshakil.smooth.agama.inbound.oauth2.authzCodeWithUserInfo": {}
+            "imshakil.smooth.agama.inbound.oauth2.authzCodeWithUserInfo": {},
+            "agama.inbound.oidc.hello": {
+                "oidc": {
+                    "authorization_endpoint": "https://wallet.hello.coop/authorize",
+                    "token_endpoint": "https://wallet.hello.coop/oauth/token",
+                    "userInfo_endpoint": "https://wallet.hello.coop/oauth/userinfo",
+                    "clientId": "CLIENT_IDENTIFIER",
+                    "clientSecret": "SECRET",
+                    "scopes": [
+                        "openid"
+                    ],
+                    "clientCredsInRequestBody": true,
+                    "custParamsAuthReq": {},
+                    "custParamsTokenReq": {},
+                    "redirectUri": ""
+                },
+                "uidPrefix": "hello-"
+            }
         },
         "name": "hello-agama"
     }
