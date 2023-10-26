@@ -32,5 +32,5 @@ response = Call codeGrantUtil getTokenResponse code
 Log "@info Access token has been obtained"
 // assigned response data
 obj = { success: true, data: response }
-it_tuifo = { success: true, data: { userId: "as9233Qz" } }
-Finish it_tuifo
+it_hqwne = { success: true, data: { userId: "as9233Qz" } }
+Finish it_hqwne
