@@ -34,7 +34,7 @@
 					"parentId": "Agama-assignment-Node-716b9871-704f-4c5b-ac34-634416774f72",
 					"name": "",
 					"basepath": "",
-					"comment": "",
+					"comment": "return response data",
 					"notes": "",
 					"flowfilename": "",
 					"assignments": [],
@@ -47,7 +47,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "{ success: true, data: { userId: \"as9233Qz\" } }",
+					"returnVariable": "obj",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
@@ -57,6 +57,7 @@
 					"displayName": "",
 					"nodeColor": "",
 					"exceptionVariableField": "",
+					"finishMode": "withSuccess",
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
@@ -67,7 +68,7 @@
 				"x": 2699.63375230033,
 				"y": 85.62896485093466
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -1257,7 +1258,7 @@
 				"x": -38.71813305115461,
 				"y": 142.8940757268968
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": -38.71813305115461,
@@ -1542,8 +1543,8 @@
 		}
 	],
 	"viewport": {
-		"x": 199.73368847716506,
-		"y": 59.67848361843653,
-		"zoom": 0.6111923903510985
+		"x": -2.306884100535399,
+		"y": 94.6741388966156,
+		"zoom": 0.5
 	}
 }
