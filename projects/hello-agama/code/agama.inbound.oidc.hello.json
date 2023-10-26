@@ -202,7 +202,7 @@
 					"callType": "Call static method",
 					"arguments": [
 						"obj.data",
-						"uidPrefix"
+						"hello_op_conf.uidPrefix"
 					],
 					"logMessage": "",
 					"templatePath": "",
@@ -228,7 +228,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 945,
@@ -380,7 +380,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 244,
@@ -542,8 +542,8 @@
 			"height": 140,
 			"id": "Agama-when-Node-1be68f10-f55e-4f1f-8872-064fb85f9625",
 			"position": {
-				"x": 632,
-				"y": 181
+				"x": 638.7649141769784,
+				"y": 175.36257151918454
 			},
 			"parentId": "Agama-log-Node-54440b94-bd83-4000-9900-089834a914c0",
 			"type": "when",
@@ -554,8 +554,8 @@
 				"whenCondition": "",
 				"inRepeatBlock": "",
 				"position": {
-					"x": 632,
-					"y": 181
+					"x": 638.7649141769784,
+					"y": 175.36257151918454
 				},
 				"agamaData": {
 					"id": "Agama-when-Node-1be68f10-f55e-4f1f-8872-064fb85f9625",
@@ -588,8 +588,8 @@
 			},
 			"selected": false,
 			"positionAbsolute": {
-				"x": 632,
-				"y": 181
+				"x": 638.7649141769784,
+				"y": 175.36257151918454
 			},
 			"dragging": false,
 			"whenCondition": "",
@@ -720,8 +720,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
-		"zoom": 1
+		"x": -102.51354667234546,
+		"y": -29.13892310066899,
+		"zoom": 0.8869292119652423
 	}
 }
