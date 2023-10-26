@@ -45,9 +45,22 @@ When E is not null
      // generated error message
      msg = Call java.lang.String#join " " msg
      // return error with exception
-     it_viebp = { success: false, error: msg }
-     Finish it_viebp
+     it_leicr = { success: false, error: msg }
+     Finish it_leicr
 // dump profile data
 Log "@debug Profile data:\n" p
 // assign user profile and response data
 obj = { success: true, data: { profile: p, tokenResponse: obj.data } }
+// log 
+Log "@info Procced to the last step to onboard user"
+When obj.success is true
+     // grab response data
+     obj.data = obj.data.profile
+     // User provisioning and grab user uid
+     uid = Call io.jans.inbound.UserOnboardHelper#exec obj.data conf.hello.uidPrefix
+     // returns user uid for successful authentiction
+     it_ezrpp = { success: true, data: { userId: uid } }
+     Finish it_ezrpp
+// fail attempt
+it_lbmdf = { success: false, error: "Authentication Failed, please try again later." }
+Finish it_lbmdf
