@@ -81,7 +81,7 @@
             "social-logins"
         ],
         "noDirectLaunch": [
-            "agama.inbound.oauth2.authzCodeWithUserInfo"
+            "agama.inbound.oauth2.authzCode"
         ],
         "configs": {
             "imshakil.esoteric.coop.hello.agama": {},
