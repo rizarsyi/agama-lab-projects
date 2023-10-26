@@ -70,7 +70,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -145,7 +146,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -223,7 +225,8 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "uid"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -297,7 +300,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -348,9 +352,10 @@
 				"handles": [
 					"Agama-when-Node-f02886c5-2b2a-4a24-ba57-72a644870b51.FAILURE",
 					"Agama-when-Node-f02886c5-2b2a-4a24-ba57-72a644870b51.SUCCESS"
-				]
+				],
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 4039,
@@ -422,7 +427,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -1588,7 +1594,7 @@
 					],
 					"callType": "Call static method",
 					"arguments": [],
-					"logMessage": "\"Redirecting to hello.coop for social login...\"",
+					"logMessage": "\"Redirecting to hello.coop for social login...\\n\" url",
 					"templatePath": "",
 					"maxIteration": "",
 					"idpAuthEndpoint": "",
@@ -2796,8 +2802,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1542.4388388617454,
-		"y": 243.54892941318545,
-		"zoom": 0.5
+		"x": -1286.361287364774,
+		"y": 169.94759183877318,
+		"zoom": 1.1580973981700562
 	}
 }
