@@ -200,7 +200,10 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "obj.data",
+					"arguments": [
+						"obj.data",
+						"uidPrefix"
+					],
 					"logMessage": "",
 					"templatePath": "",
 					"maxIteration": "",
@@ -225,7 +228,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 945,
@@ -526,7 +529,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -718,8 +722,8 @@
 		}
 	],
 	"viewport": {
-		"x": -21,
-		"y": -2,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }
