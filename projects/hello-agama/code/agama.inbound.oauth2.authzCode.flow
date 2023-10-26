@@ -1,2 +1,11 @@
+// OAuth 2.0 code flow
 Flow agama.inbound.oauth2.authzCode
      Basepath ""
+     Inputs oauthParams
+When oauthParams.redirectUri is null
+     // Obtain hostname from HTTP url
+     issuer = Call io.jans.util.NetworkUtils#urlBeforeContextPath  
+     // assign redirect url 
+     list = [issuer, "/jans-auth/fl/callback"]
+     // Build redirect uri
+     oauthParams.redirectUri = Call java.lang.String#join "" list
