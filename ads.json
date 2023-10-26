@@ -81,7 +81,8 @@
             "social-logins"
         ],
         "noDirectLaunch": [
-            "agama.inbound.oauth2.authzCode"
+            "agama.inbound.oauth2.authzCode",
+            "agama.inbound.oidc.hello"
         ],
         "configs": {
             "imshakil.esoteric.coop.hello.agama": {},
@@ -128,6 +129,23 @@
                     "authzEndpoint": "https://wallet.hello.coop/authorize",
                     "tokenEndpoint": "https://wallet.hello.coop/oauth/token",
                     "userInfoEndpoint": "https://wallet.hello.coop/oauth/userinfo",
+                    "clientId": "CLIENT_IDENTIFIER",
+                    "clientSecret": "SECRET",
+                    "scopes": [
+                        "openid"
+                    ],
+                    "clientCredsInRequestBody": true,
+                    "custParamsAuthReq": {},
+                    "custParamsTokenReq": {},
+                    "redirectUri": ""
+                },
+                "uidPrefix": "hello-"
+            },
+            "agama.inbound.oidc.hello": {
+                "oidc": {
+                    "authorization_endpoint": "https://wallet.hello.coop/authorize",
+                    "token_endpoint": "https://wallet.hello.coop/oauth/token",
+                    "userInfo_endpoint": "https://wallet.hello.coop/oauth/userinfo",
                     "clientId": "CLIENT_IDENTIFIER",
                     "clientSecret": "SECRET",
                     "scopes": [
