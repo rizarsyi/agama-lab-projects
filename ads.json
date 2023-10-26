@@ -100,7 +100,8 @@
                     ],
                     "clientCredsInRequestBody": true,
                     "custParamsAuthReq": {},
-                    "custParamsTokenReq": {}
+                    "custParamsTokenReq": {},
+                    "redirectUri": ""
                 },
                 "uidPrefix": "hello-"
             },
