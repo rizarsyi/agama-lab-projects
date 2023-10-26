@@ -85,7 +85,23 @@
             "imshakil.esoteric.coop.hello.agama": {},
             "imshakil.shaggy.coop.hello.agama": {},
             "imshakil.happy.coop.hello.agama": {},
-            "coop.hello.inbound.oauth2.authzCode": {}
+            "coop.hello.inbound.oauth2.authzCode": {},
+            "coop.hello.agama": {
+                "oidc": {
+                    "authorization_endpoint": "https://wallet.hello.coop/authorize",
+                    "token_endpoint": "https://wallet.hello.coop/oauth/token",
+                    "userInfo_endpoint": "https://wallet.hello.coop/oauth/userinfo",
+                    "clientId": "CLIENT_IDENTIFIER",
+                    "clientSecret": "SECRET",
+                    "scopes": [
+                        "openid"
+                    ],
+                    "clientCredsInRequestBody": true,
+                    "custParamsAuthReq": {},
+                    "custParamsTokenReq": {}
+                },
+                "uidPrefix": "hello-"
+            }
         },
         "name": "hello-agama"
     }
