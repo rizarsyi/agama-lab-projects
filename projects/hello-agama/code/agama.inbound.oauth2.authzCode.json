@@ -3,6 +3,81 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-call-Node-795e9712-0fb5-4f92-a3aa-5cf5bb082ff8",
+			"position": {
+				"x": 499.6337523003298,
+				"y": 85.62896485093466
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-795e9712-0fb5-4f92-a3aa-5cf5bb082ff8",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-when-Node-551017f9-92f9-47e2-8f8f-be46c8660b39",
+				"whenCondition": "WhenFalse",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 499.6337523003298,
+					"y": 85.62896485093466
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-795e9712-0fb5-4f92-a3aa-5cf5bb082ff8",
+					"type": "Agama-call-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasComment": true,
+					"hasNoRepeat": false,
+					"isTopLevelFlow": true,
+					"whenCondition": "WhenFalse",
+					"inRepeatBlock": false,
+					"parentId": "Agama-when-Node-551017f9-92f9-47e2-8f8f-be46c8660b39",
+					"name": "",
+					"basepath": "",
+					"comment": "Instantiate code grant utility",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Create an instance",
+					"arguments": "oauthParams",
+					"logMessage": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "io.jans.inbound.oauth2.CodeGrantUtil",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"hasExtraData": false,
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:code",
+					"asssignedVariableName": "codeGrantUtil"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 499.6337523003298,
+				"y": 85.62896485093466
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-call-Node-7fe4ce07-ae22-4bcb-b8e9-158a4c936d2e",
 			"position": {
 				"x": 762.6337523003298,
@@ -69,9 +144,10 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "oauthParams.redirectUri"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 762.6337523003298,
@@ -143,7 +219,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -220,7 +297,8 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "issuer"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -265,12 +343,14 @@
 					"conditionInputField": "is",
 					"valueField": "null",
 					"hasComment": true,
-					"hasSuccess": true
+					"hasSuccess": true,
+					"hasFailure": true
 				},
 				"handles": [
 					"Agama-when-Node-551017f9-92f9-47e2-8f8f-be46c8660b39.FAILURE",
 					"Agama-when-Node-551017f9-92f9-47e2-8f8f-be46c8660b39.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -301,7 +381,7 @@
 					"hasRepeat": false,
 					"hasComment": true,
 					"hasNoRepeat": false,
-					"isTopLevelFlow": true,
+					"isTopLevelFlow": false,
 					"inRepeatBlock": false,
 					"name": "",
 					"basepath": "",
@@ -418,6 +498,24 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-when-Node-551017f9-92f9-47e2-8f8f-be46c8660b39-Agama-call-Node-795e9712-0fb5-4f92-a3aa-5cf5bb082ff8-7150133b-a970-4d91-aa2f-1a52a127ba40",
+			"type": "straight",
+			"source": "Agama-when-Node-551017f9-92f9-47e2-8f8f-be46c8660b39",
+			"target": "Agama-call-Node-795e9712-0fb5-4f92-a3aa-5cf5bb082ff8",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			},
+			"sourceHandle": "Agama-when-Node-551017f9-92f9-47e2-8f8f-be46c8660b39.FAILURE"
 		}
 	],
 	"viewport": {
