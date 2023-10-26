@@ -13,8 +13,8 @@ When obj.success is true
      // User provisioning and grab user uid
      uid = Call agama.inbound.UserOnBoardHelper#exec obj.data hello_op_conf.uidPrefix
      // return user id for successful authentication
-     it_stmtj = { success: true, data: { userId: uid } }
-     Finish it_stmtj
+     it_tbitz = { success: true, data: { userId: uid } }
+     Finish it_tbitz
 // fail attempt
-it_ejsbb = { success: false, error: "Authentication failed, please try again later." }
-Finish it_ejsbb
+it_zfney = { success: false, error: "Authentication failed, please try again later." }
+Finish it_zfney
