@@ -19,7 +19,7 @@ url = Call codeGrantUtil makeAuthzRequest
 state = url.second
 url = url.first
 // redirect log
-Log "@info Redirecting to hello.coop for social login..."
+Log "@info Redirecting to hello.coop for social login...\n" url
 // redirection to external op for social login
 responseParamas = RFAC url
 // received response from hello.coop
@@ -45,8 +45,8 @@ When E is not null
      // generated error message
      msg = Call java.lang.String#join " " msg
      // return error with exception
-     it_leicr = { success: false, error: msg }
-     Finish it_leicr
+     it_yecec = { success: false, error: msg }
+     Finish it_yecec
 // dump profile data
 Log "@debug Profile data:\n" p
 // assign user profile and response data
@@ -59,8 +59,8 @@ When obj.success is true
      // User provisioning and grab user uid
      uid = Call io.jans.inbound.UserOnboardHelper#exec obj.data conf.hello.uidPrefix
      // returns user uid for successful authentiction
-     it_ezrpp = { success: true, data: { userId: uid } }
-     Finish it_ezrpp
+     it_yxfqz = { success: true, data: { userId: uid } }
+     Finish it_yxfqz
 // fail attempt
-it_lbmdf = { success: false, error: "Authentication Failed, please try again later." }
-Finish it_lbmdf
+it_nelht = { success: false, error: "Authentication Failed, please try again later." }
+Finish it_nelht
