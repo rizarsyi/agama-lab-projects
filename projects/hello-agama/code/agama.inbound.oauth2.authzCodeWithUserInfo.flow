@@ -7,7 +7,7 @@ obj = Trigger agama.inbound.oauth2.authzCode oauthParams
 // extract access token
 token = obj.data.access_token
 // calls the userinfo endpoint and parses the request as  a map
-p | E = Call io.jans.util.NetworkUtils#mapFromGetRequestWithToken oauthParams.userInfoEndpoint token
+p | E = Call io.jans.util.NetworkUtils#mapFromGetRequestWithToken oauthParams.userinfo_endpoint token
 // check if exception was thrown previously
 When E is not null
      // error log
@@ -17,8 +17,8 @@ When E is not null
      // generate error message
      msg = Call java.lang.String#join " "  msg 
      // fail attempt
-     it_mrwce = { success: false, error:  msg}
-     Finish it_mrwce
+     it_kjnyu = { success: false, error:  msg}
+     Finish it_kjnyu
 // dump profile data
 Log "@debug Profile data:\n" p
 // assign response data
