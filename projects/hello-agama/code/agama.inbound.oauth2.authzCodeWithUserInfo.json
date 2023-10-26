@@ -66,7 +66,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -325,7 +326,7 @@
 					],
 					"callType": "Call static method",
 					"arguments": [
-						"oauthParams.userInfoEndpoint",
+						"oauthParams.userinfo_endpoint",
 						"token"
 					],
 					"logMessage": "",
@@ -352,7 +353,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 676,
@@ -881,7 +882,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
 				"x": 1392.3663942087076,
 				"y": 124.37331964355315
@@ -1081,8 +1082,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10.680225474421604,
-		"y": 2.7166982300628035,
-		"zoom": 0.615313918173731
+		"x": 32.58948614898867,
+		"y": 43.61001034427255,
+		"zoom": 0.6112441071730691
 	}
 }
