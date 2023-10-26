@@ -1,6 +1,7 @@
 // hello-agama is an external identity provider integration for social logins
 Flow coop.hello.agama
      Basepath ""
+     Configs hello_coop_conf
 // creating an instance of AuthenticationService class
 authService = Call io.jans.as.server.service.AuthenticationService#class 
 // initiated cdiUtil object
@@ -28,11 +29,11 @@ Repeat 3 times max
           // return log statement for successful authentication
           Log "@info Authenticate successful"
           // End successful authentication flow
-          it_napcs = { success: true, data: { userId: authResult.uid } }
-          Finish it_napcs
+          it_vxllm = { success: true, data: { userId: authResult.uid } }
+          Finish it_vxllm
      Log "@debug invalid credentials"
 // log
 Log "@debug max retry attempt"
 // User failed to authenticate for 3 times
-it_grdez = { success: false, error: "Your error message here" }
-Finish it_grdez
+it_vdadz = { success: false, error: "Your error message here" }
+Finish it_vdadz
