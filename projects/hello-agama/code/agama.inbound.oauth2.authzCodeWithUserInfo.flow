@@ -17,7 +17,11 @@ When E is not null
      // generate error message
      msg = Call java.lang.String#join " "  msg 
      // fail attempt
-     it_mudct = { success: false, error:  msg}
-     Finish it_mudct
+     it_mrwce = { success: false, error:  msg}
+     Finish it_mrwce
 // dump profile data
 Log "@debug Profile data:\n" p
+// assign response data
+obj = { success: true, data: { profile: p, tokenResponse: obj.data } }
+// return obj data
+Finish obj
