@@ -11,3 +11,7 @@ When oauthParams.redirectUri is null
      oauthParams.redirectUri = Call java.lang.String#join "" list
 // Instantiate code grant utility
 codeGrantUtil = Call io.jans.inbound.oauth2.CodeGrantUtil#new oauthParams
+// authorization request
+Log "@info Creating an authorization request"
+// generate authorization request
+url = Call codeGrantUtil makeAuthzRequest  
