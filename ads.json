@@ -101,7 +101,6 @@
                 },
                 "uidPrefix": "hello-"
             },
-            "coop.hello.inbound.oauth2.authzCodeWithUserInfo": {},
             "agama.inbound.oauth2.authzCode": {},
             "agama.inbound.oidc.hello": {},
             "agama.inbound.oauth2.authzCodeWithUserInfo": {}
