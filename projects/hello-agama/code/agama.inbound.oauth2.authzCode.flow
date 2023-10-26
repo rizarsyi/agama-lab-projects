@@ -9,3 +9,5 @@ When oauthParams.redirectUri is null
      list = [issuer, "/jans-auth/fl/callback"]
      // Build redirect uri
      oauthParams.redirectUri = Call java.lang.String#join "" list
+// Instantiate code grant utility
+codeGrantUtil = Call io.jans.inbound.oauth2.CodeGrantUtil#new oauthParams
