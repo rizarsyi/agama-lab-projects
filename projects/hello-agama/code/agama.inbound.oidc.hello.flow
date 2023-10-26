@@ -11,10 +11,10 @@ When obj.success is true
      // grab response data
      obj.data = obj.data.profile
      // User provisioning and grab user uid
-     uid = Call agama.inbound.UserOnBoardHelper#exec obj.data uidPrefix
+     uid = Call agama.inbound.UserOnBoardHelper#exec obj.data hello_op_conf.uidPrefix
      // return user id for successful authentication
-     it_qborq = { success: true, data: { userId: uid } }
-     Finish it_qborq
+     it_stmtj = { success: true, data: { userId: uid } }
+     Finish it_stmtj
 // fail attempt
-it_iyyun = { success: false, error: "Authentication failed, please try again later." }
-Finish it_iyyun
+it_ejsbb = { success: false, error: "Authentication failed, please try again later." }
+Finish it_ejsbb
