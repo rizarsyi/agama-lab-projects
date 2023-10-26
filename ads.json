@@ -68,7 +68,7 @@
         "description": "hello.coop integration with janssen server for dynamic enrollment",
         "type": "community",
         "author": "imShakil",
-        "version": "1.0.3",
+        "version": "2.0.0",
         "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
         "githubUri": "https://github.com/imShakil/agama-lab-projects",
         "license": "MIT",
@@ -87,8 +87,8 @@
             "imshakil.esoteric.coop.hello.agama": {},
             "imshakil.shaggy.coop.hello.agama": {},
             "imshakil.happy.coop.hello.agama": {},
-            "imshakil.jolly.agama.inbound.oauth2.authzCode": {},
-            "imshakil.jolly.agama.inbound.oidc.hello": {
+            "imshakil.smooth.agama.inbound.oauth2.authzCode": {},
+            "imshakil.smooth.agama.inbound.oidc.hello": {
                 "oidc": {
                     "authorization_endpoint": "https://wallet.hello.coop/authorize",
                     "token_endpoint": "https://wallet.hello.coop/oauth/token",
@@ -105,7 +105,7 @@
                 },
                 "uidPrefix": "hello-"
             },
-            "imshakil.jolly.agama.inbound.oauth2.authzCodeWithUserInfo": {}
+            "imshakil.smooth.agama.inbound.oauth2.authzCodeWithUserInfo": {}
         },
         "name": "hello-agama"
     }
