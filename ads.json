@@ -84,7 +84,8 @@
         "configs": {
             "imshakil.esoteric.coop.hello.agama": {},
             "imshakil.shaggy.coop.hello.agama": {},
-            "imshakil.happy.coop.hello.agama": {}
+            "imshakil.happy.coop.hello.agama": {},
+            "coop.hello.inbound.oauth2.authzCode": {}
         },
         "name": "hello-agama"
     }
