@@ -60,7 +60,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -136,7 +137,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -210,7 +212,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -262,7 +265,8 @@
 				"handles": [
 					"Agama-when-Node-106d3909-27a0-43ae-9768-03595d920793.FAILURE",
 					"Agama-when-Node-106d3909-27a0-43ae-9768-03595d920793.SUCCESS"
-				]
+				],
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -340,7 +344,8 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "p"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -414,7 +419,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -490,7 +496,8 @@
 					"nodeIcon": "fluent-mdl2:trigger-approval",
 					"flowFileName": "agama.inbound.oauth2.authzCode",
 					"asssignedVariableName": "obj"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -639,7 +646,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"positionAbsolute": {
 				"x": 1137.1100461954645,
@@ -686,7 +694,7 @@
 					"flowfilename": "",
 					"assignments": [
 						{
-							"variableTypeCheck": true,
+							"variableTypeCheck": false,
 							"assignmentExpression": "[\"Unable to retrieve user profile.\", E.message]",
 							"assignedVariableName": "msg"
 						}
@@ -713,9 +721,10 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": true
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 1376.283635866402,
 				"y": 376.97266576164714
@@ -786,7 +795,8 @@
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "msg"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
