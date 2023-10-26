@@ -228,7 +228,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 945,
@@ -354,9 +354,7 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": [
-						"oidc"
-					],
+					"arguments": "hello_op_conf.oidc",
 					"logMessage": "",
 					"templatePath": "",
 					"maxIteration": "",
@@ -382,7 +380,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 244,
