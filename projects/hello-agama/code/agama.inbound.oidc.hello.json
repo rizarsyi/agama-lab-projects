@@ -114,7 +114,7 @@
 					"parentId": "Agama-call-Node-097989ad-b123-4ced-a875-778677dd6d6b",
 					"name": "",
 					"basepath": "",
-					"comment": "",
+					"comment": "return user id for successful authentication",
 					"notes": "",
 					"flowfilename": "",
 					"assignments": [
@@ -140,7 +140,7 @@
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
-					"displayName": "",
+					"displayName": "successful authentication",
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"hasExtraData": false,
@@ -153,7 +153,7 @@
 				"x": 995,
 				"y": 411
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false
 		},
 		{
@@ -507,7 +507,7 @@
 				"x": 44,
 				"y": 186
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 44,
@@ -622,7 +622,7 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
+		"x": 12,
 		"y": 15,
 		"zoom": 1
 	}
