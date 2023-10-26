@@ -32,3 +32,7 @@ response = Call codeGrantUtil getTokenResponse code
 Log "@info Access token has been obtained"
 // assigned response data
 obj = { success: true, data: response }
+// assigned access_token
+token = response.access_token
+// calls the userinfo endpoint and parse the request as a map
+p | E = Call io.jans.util.NetworkUtils#mapFromGetRequestWithToken conf.hello.userInfoEndpoint token
