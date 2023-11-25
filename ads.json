@@ -15,7 +15,7 @@
             "social-logins"
         ],
         "noDirectLaunch": [
-            "hello.agama.inbound.hello_user"
+            "hello.agama.inbound.hello"
         ],
         "configs": {
             "hello.agama.inbound.hello_user": {},
