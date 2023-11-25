@@ -19,7 +19,8 @@
         ],
         "configs": {
             "hello.agama.inbound.hello_user": {},
-            "hello.agama.inbound.hello": {}
+            "hello.agama.inbound.hello": {},
+            "hello.agama.inbound.main": {}
         },
         "name": "agama-hello"
     }
