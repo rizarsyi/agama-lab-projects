@@ -56,7 +56,48 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "io.jans.external.multiAuth": {}
+            "io.jans.external.multiAuth": {
+                "ldaps": [
+                    {
+                        "configId": "ad_1",
+                        "servers": [
+                            "localhost:1636"
+                        ],
+                        "bindDN": "cn=directory manager",
+                        "bindPassword": "password",
+                        "useSSL": false,
+                        "maxConnections": 3,
+                        "baseDNs": [
+                            "ou=people,o=jans"
+                        ],
+                        "loginAttributes": [
+                            "uid"
+                        ],
+                        "localLoginAttributes": [
+                            "uid"
+                        ]
+                    },
+                    {
+                        "configId": "ad_2",
+                        "servers": [
+                            "localhost:2389"
+                        ],
+                        "bindDN": "cn=directory manager",
+                        "bindPassword": "encoded_pass",
+                        "useSSL": false,
+                        "maxConnections": 3,
+                        "baseDNs": [
+                            "ou=people,o=jans"
+                        ],
+                        "loginAttributes": [
+                            "mail"
+                        ],
+                        "localLoginAttributes": [
+                            "mail"
+                        ]
+                    }
+                ]
+            }
         },
         "name": "MultiAuth"
     }
