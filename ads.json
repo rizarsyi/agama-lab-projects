@@ -118,7 +118,18 @@
         ],
         "noDirectLaunch": [],
         "configs": {
-            "io.jans.basic.oAuth": {}
+            "io.jans.basic.oAuth": {
+                "login_attributes": [
+                    "mail",
+                    "uid",
+                    "eppn"
+                ],
+                "local_login_attributes": [
+                    "mail",
+                    "uid",
+                    "eppn"
+                ]
+            }
         },
         "name": "MultiAttributeLogin"
     }
