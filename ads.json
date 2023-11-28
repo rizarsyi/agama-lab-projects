@@ -117,6 +117,9 @@
             "authentication"
         ],
         "noDirectLaunch": [],
-        "configs": {}
+        "configs": {
+            "io.jans.basic.oAuth": {}
+        },
+        "name": "MultiAttributeLogin"
     }
 }
