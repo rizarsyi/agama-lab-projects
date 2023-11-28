@@ -1,45 +1,4 @@
 {
-    "agama-hello": {
-        "projectName": "agama-hello",
-        "description": "agama-hell\u014d a social login integrations with hello.coop saas",
-        "type": "community",
-        "author": "imShakil",
-        "version": "0.0.1",
-        "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
-        "githubUri": "https://github.com/imShakil/agama-lab-projects",
-        "license": "apache-2.0",
-        "lastUpdated": "1700878496987",
-        "tags": [
-            "openid-connect",
-            "authentication",
-            "social-logins"
-        ],
-        "noDirectLaunch": [
-            "hello.agama.inbound.hello"
-        ],
-        "configs": {
-            "hello.agama.inbound.hello_user": {},
-            "hello.agama.inbound.hello": {},
-            "hello.agama.inbound.main": {
-                "hello": {
-                    "authzEndpoint": "https://wallet.hello.coop/authorize",
-                    "tokenEndpoint": "https://wallet.hello.coop/oauth/token",
-                    "userInfoEndpoint": "https://wallet.hello.coop/oauth/userinfo",
-                    "clientId": "CLIENT_INDENTIFIER",
-                    "clientSecret": "CLIENT_SECRET",
-                    "scopes": [
-                        "openid"
-                    ],
-                    "clientCredsInRequestBody": true,
-                    "custParamsAuthReq": {},
-                    "custParamsTokenReq": {},
-                    "redirectUri": " "
-                },
-                "uidPrefix": "hello-"
-            }
-        },
-        "name": "agama-hello"
-    },
     "MultiAuth": {
         "projectName": "MultiAuth",
         "description": "multi backend auth support",
