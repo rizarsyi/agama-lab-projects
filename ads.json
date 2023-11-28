@@ -100,5 +100,23 @@
             }
         },
         "name": "MultiAuth"
+    },
+    "MultiAttributeLogin": {
+        "projectName": "MultiAttributeLogin",
+        "description": "multi attribute login supported ",
+        "type": "community",
+        "author": "imShakil",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
+        "githubUri": "https://github.com/imShakil/agama-lab-projects",
+        "license": "apache-2.0",
+        "lastUpdated": "1701134476125",
+        "tags": [
+            "jans",
+            "community",
+            "authentication"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
     }
 }
