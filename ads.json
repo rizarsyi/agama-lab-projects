@@ -61,14 +61,14 @@
                     {
                         "configId": "ad_1",
                         "servers": [
-                            "localhost:1636"
+                            "localhost:1389"
                         ],
                         "bindDN": "cn=directory manager",
-                        "bindPassword": "password",
+                        "bindPassword": "encoded_pass",
                         "useSSL": false,
                         "maxConnections": 3,
                         "baseDNs": [
-                            "ou=people,o=jans"
+                            "ou=people,o=gluu"
                         ],
                         "loginAttributes": [
                             "uid"
@@ -87,7 +87,7 @@
                         "useSSL": false,
                         "maxConnections": 3,
                         "baseDNs": [
-                            "ou=people,o=jans"
+                            "ou=people,o=gluu"
                         ],
                         "loginAttributes": [
                             "mail"
