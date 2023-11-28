@@ -39,5 +39,22 @@
             }
         },
         "name": "agama-hello"
+    },
+    "MultiAuth": {
+        "projectName": "MultiAuth",
+        "description": "multi backend auth support",
+        "type": "community",
+        "author": "imShakil",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/imShakil/agama-lab-projects",
+        "githubUri": "https://github.com/imShakil/agama-lab-projects",
+        "license": "apache-2.0",
+        "lastUpdated": "1701133199457",
+        "tags": [
+            "jans",
+            "authentication"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
     }
 }
