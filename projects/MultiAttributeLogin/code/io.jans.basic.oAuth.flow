@@ -1,2 +1,7 @@
+// This agama project aims to support multi attribute login
 Flow io.jans.basic.oAuth
      Basepath ""
+     Configs conf
+Log "@info agama-multi-attr: script initiated"
+it_hzsze = { success: true, data: { userId: "as9233Qz" } }
+Finish it_hzsze
