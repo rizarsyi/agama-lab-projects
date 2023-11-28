@@ -2,6 +2,8 @@
 Flow io.jans.basic.oAuth
      Basepath ""
      Configs conf
+// init log
 Log "@info agama-multi-attr: script initiated"
-it_hzsze = { success: true, data: { userId: "as9233Qz" } }
-Finish it_hzsze
+// finish
+it_gsdeg = { success: true, data: { userId: "as9233Qz" } }
+Finish it_gsdeg
