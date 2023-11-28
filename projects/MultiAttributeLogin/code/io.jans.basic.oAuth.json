@@ -6,7 +6,7 @@
 			"id": "finish-2562b484-3472-4038-a8d9-0f630eb6e30d",
 			"position": {
 				"x": 430,
-				"y": 129
+				"y": 130
 			},
 			"type": "finish",
 			"data": {
@@ -18,7 +18,7 @@
 				"handles": [],
 				"position": {
 					"x": 430,
-					"y": 129
+					"y": 130
 				},
 				"agamaData": {
 					"id": "finish-2562b484-3472-4038-a8d9-0f630eb6e30d",
@@ -34,7 +34,7 @@
 					"parentId": "Agama-log-Node-2e65f0bb-bdd6-4cbd-b4ed-a658b128d6ce",
 					"name": "",
 					"basepath": "",
-					"comment": "",
+					"comment": "finish",
 					"notes": "",
 					"flowfilename": "",
 					"assignments": [
@@ -66,13 +66,14 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 430,
-				"y": 129
+				"y": 130
 			}
 		},
 		{
@@ -108,7 +109,7 @@
 					"parentId": "Agama-start-Flow-e5b6b57a-2ecf-4344-a314-00ff560debad",
 					"name": "",
 					"basepath": "",
-					"comment": "",
+					"comment": "init log",
 					"notes": "",
 					"flowfilename": "",
 					"assignments": [
@@ -140,7 +141,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -262,7 +264,7 @@
 	],
 	"viewport": {
 		"x": 10,
-		"y": 15,
+		"y": 14,
 		"zoom": 1
 	}
 }
