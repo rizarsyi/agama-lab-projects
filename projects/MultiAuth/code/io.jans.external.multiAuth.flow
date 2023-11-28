@@ -1,2 +1,8 @@
 Flow io.jans.external.multiAuth
      Basepath ""
+     Configs conf
+// log
+Log "@info initiated the process"
+// finish
+it_bggcf = { success: true, data: { userId: "as9233Qz" } }
+Finish it_bggcf
