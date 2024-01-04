@@ -5,7 +5,7 @@
 			"height": 122,
 			"id": "finish-f164af00-bb76-430d-8323-b6c8d2124a90",
 			"position": {
-				"x": 1533,
+				"x": 1534.258823848549,
 				"y": 29
 			},
 			"type": "finish",
@@ -17,7 +17,7 @@
 				"inRepeatBlock": "",
 				"handles": [],
 				"position": {
-					"x": 1533,
+					"x": 1534.258823848549,
 					"y": 29
 				},
 				"agamaData": {
@@ -53,7 +53,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "{success: false, error: \"Authentication failed\"}",
+					"returnVariable": "Authentication failed",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
@@ -67,12 +67,13 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": true
 			},
 			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 1533,
+				"x": 1534.258823848549,
 				"y": 29
 			}
 		},
@@ -141,7 +142,8 @@
 					"hasExtraData": false,
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -1438,8 +1440,8 @@
 		}
 	],
 	"viewport": {
-		"x": -517.7854116559379,
-		"y": 108.6433697112562,
-		"zoom": 0.870550563296124
+		"x": -860.2484302268522,
+		"y": 47.43254262899359,
+		"zoom": 0.794392321970046
 	}
 }
