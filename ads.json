@@ -27,7 +27,8 @@
                     "uid",
                     "eppn"
                 ]
-            }
+            },
+            "": {}
         },
         "name": "MultiAttributeLogin"
     }
