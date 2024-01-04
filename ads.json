@@ -17,7 +17,8 @@
         "noDirectLaunch": [],
         "configs": {
             "": {},
-            "agama.pw": {}
+            "agama.pw": {},
+            "reset.pw": {}
         },
         "name": "MultiAttributeLogin"
     }
