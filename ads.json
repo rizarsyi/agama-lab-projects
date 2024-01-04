@@ -28,7 +28,8 @@
                     "eppn"
                 ]
             },
-            "": {}
+            "": {},
+            "agama.pw": {}
         },
         "name": "MultiAttributeLogin"
     }
