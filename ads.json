@@ -21,5 +21,21 @@
             "reset.pw": {}
         },
         "name": "MultiAttributeLogin"
+    },
+    "test-satu": {
+        "projectName": "test-satu",
+        "description": "ddsadsad",
+        "type": "community",
+        "author": "rizarsyi",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/rizarsyi/agama-lab-projects",
+        "githubUri": "https://github.com/rizarsyi/agama-lab-projects",
+        "license": "apache-2.0",
+        "lastUpdated": "1707833891144",
+        "tags": [
+            "tes"
+        ],
+        "noDirectLaunch": [],
+        "configs": {}
     }
 }
